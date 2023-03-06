@@ -5,7 +5,7 @@ means a class should have only one responsibility
 
 For Exp:
 
-We have Marker class
+We have Pen class
 We have Invoice class
     we are calculating invoice price
     we are printing invoice
