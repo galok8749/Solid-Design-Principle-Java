@@ -1,4 +1,4 @@
-package singleResponsibilityPrinciple.wrong;
+package SRP.wrong;
 
 public class Invoice {
     private Pen marker;

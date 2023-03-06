@@ -1,4 +1,4 @@
-package singleResponsibilityPrinciple.right;
+package SRP.right;
 
 public class InvoiceDao {
     Invoice invoice;

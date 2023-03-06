@@ -1,4 +1,4 @@
-package singleResponsibilityPrinciple.wrong;
+package SRP.wrong;
 
 public class Pen {
     String name;

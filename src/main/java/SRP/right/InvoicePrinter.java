@@ -1,4 +1,4 @@
-package singleResponsibilityPrinciple.right;
+package SRP.right;
 
 public class InvoicePrinter {
     Invoice invoice;
