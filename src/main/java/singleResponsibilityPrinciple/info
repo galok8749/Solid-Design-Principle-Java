@@ -1,0 +1,32 @@
+SRP: Single Responsibility Principle
+
+A class should have only one reason to change
+means a class should have only one responsibility
+
+For Exp:
+
+We have Marker class
+We have Invoice class
+    we are calculating invoice price
+    we are printing invoice
+    we are saving data to DB
+
+Now does this class Invoice follow SRP? No
+Because it has more than one reason to make change in class Invoice
+reason_1: changing calculating price logic (GST including)
+reason_2: change in printing method
+reason_3: change in saving method(file)
+
+all above reasons leads to change the class
+
+
+Correct : try to make class that will have only one reason to get changed
+
+we made three class:
+1 Invoice => to calculate invoice price
+2 InvoiceDao(data access layer to store in db) => to save data in DB/file
+3 InvoicePrinter => to print invoice
+
+Now each class has only one reason to change
+
+
