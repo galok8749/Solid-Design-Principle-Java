@@ -12,6 +12,7 @@ We have Invoice class
     we are saving data to DB
 
 Now does this class Invoice follow SRP? No
+
 Because it has more than one reason to make change in class Invoice
 reason_1: changing calculating price logic (GST including)
 reason_2: change in printing method

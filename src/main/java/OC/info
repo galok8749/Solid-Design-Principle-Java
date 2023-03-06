@@ -1,0 +1,17 @@
+OC: Open For Extension but Closed for Modification
+
+Here InvoiceDao class is already tested an deployed
+Say I got new requirement to save in file also
+So what I did I wrote saveToFile() method to save into file
+
+Is this following OC Principle? No
+Because we are adding to already tested file and it is prone to bug
+
+Correct:
+
+We have created interface of InvoiceDao
+and two class
+DatabaseInvoiceDao => implement save method of interface InvoiceDao
+FileInvoiceDao => implement save method of interface InvoiceDao
+
+And if in future we need some other method to save we just create new class and implement save method of interface InvoiceDao

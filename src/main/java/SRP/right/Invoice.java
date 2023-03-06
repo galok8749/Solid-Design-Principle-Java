@@ -2,16 +2,16 @@ package SRP.right;
 
 
 public class Invoice {
-    private Pen marker;
+    private Pen pen;
     private int quantity;
 
     public Invoice(Pen marker, int quantity) {
-        this.marker = marker;
+        this.pen = marker;
         this.quantity = quantity;
     }
 
     public int calculateTotal() {
-        int price = (marker.price * quantity);
+        int price = (pen.price * quantity);
         return price;
     }
 }

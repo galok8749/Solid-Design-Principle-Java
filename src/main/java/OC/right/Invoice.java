@@ -1,4 +1,4 @@
-package SRP.wrong;
+package OC.right;
 
 public class Invoice {
     private Pen pen;
@@ -12,13 +12,5 @@ public class Invoice {
     public int calculateTotal() {
         int price = (pen.price * quantity);
         return price;
-    }
-
-    public void printInvoice() {
-        // print the invoice
-    }
-
-    public void saveToDB() {
-        // save data to DB
     }
 }
